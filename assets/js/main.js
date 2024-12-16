@@ -68,7 +68,7 @@ flatpickr("#custom-date", {
 /*=============== Timer CountDown Added ===============*/
 
 
-$('.timer').countdown('2024/12/17', function(event) {
+$('.timer').countdown('2024/12/17 00:10:10', function(event) {
     if (event.elapsed) {
         $(this).html(event.strftime('<div class="cardbtn"><button class="btn view">Next Donet</button></div>'));
       }else{
